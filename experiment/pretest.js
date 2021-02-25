@@ -126,7 +126,9 @@
       question: "Q5. To successfully overload a method in Java, the argument-list or parameter-list must be ___.",
       answers: {
         a: "Same",
-        b: "Different"
+        b: "Different",
+        c: "Same but using superclass or subclass types also work",
+        d: "None"
       },
       correctAnswer: "b"
     },
