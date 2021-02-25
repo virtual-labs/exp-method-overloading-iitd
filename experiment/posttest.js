@@ -107,8 +107,8 @@
       question: "Q3.  Java method overloading implements the OOPS concept ___.",
       answers: {
         a: "Inheritance",
-        b: "Polymorphism"
-        c: "Encapsulation"
+        b: "Polymorphism",
+        c: "Encapsulation",
         d: "None"        
       },
       correctAnswer: "b"
@@ -118,8 +118,8 @@
       question: "Q4. Which is the overloaded static method of Math class to get absolute value in Java?",
       answers: {
         a: " Math.abs(int)",
-        b: " Math.abs(float)"
-        c: " Math.abs(double)"
+        b: " Math.abs(float)",
+        c: " Math.abs(double)",
         d: " All the above"        
       },
       correctAnswer: "d"
@@ -131,7 +131,7 @@
       answers: {
         a: "Compile Time Error",
         b: "Runtime Error",
-        c: "int,"
+        c: "int",
         d: "float"
       },
       correctAnswer: "a"
