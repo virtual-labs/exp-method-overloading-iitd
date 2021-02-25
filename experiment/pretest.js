@@ -91,15 +91,12 @@
     },
 
     {
-      question: "Q2.  Which conditions should a method satisfy for overloading a method in a class.",
-      A. its return type should be same. 
-      B. number of parameters it takes should be different. 
-      C. type of parameters should be different.
+      question: "Q2.  Which conditions should a method satisfy for overloading a method in a class. A) its return type should be same. B. number of parameters it takes should be different. C. type of parameters should be different.",
 
       answers: {
         a: " Only A",
-        b: "Both A and B"
-        c: "Either B and C"
+        b: "Both A and B",
+        c: "Either B and C",
         d: "All of the above are true."
       },
       correctAnswer: "c"
