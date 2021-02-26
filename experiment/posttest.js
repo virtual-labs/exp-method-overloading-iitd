@@ -80,24 +80,24 @@
 
   const myQuestions = [
     {
-      question: "Q1. What is the output of the below Java program?",
+      question: "Q1. To succesfully overload a method in java, the method names must be_____.",
 
       answers: {
-        a: "PLANE",
-        b: "AIRPORT",
-        c: "Compiler error",
+        a: "Same or different",
+        b: "Different",
+        c: "Same",
         d: "None"
       },
       correctAnswer: "c"
     },
 
     {
-      question: "Q2. What is the output of the below Java program with method overloading?",
+      question: "Q2. What is the process of defining two or more methods within same class that have same name but different parameters declaration?",
 
       answers: {
-        a: "PINE",
-        b: "TEAK",
-        c: "Compiler error",
+        a: "method overriding",
+        b: "method overloading",
+        c: "method hiding",
         d: "None"
       },
       correctAnswer: "b"
@@ -126,13 +126,13 @@
     },
 	
 	{
-      question: "Q5. What will be the output of the following program ?",
+      question: "Q5. Rum time polymorphism is also known as_____.",
       
       answers: {
-        a: "Compile Time Error",
-        b: "Runtime Error",
-        c: "int",
-        d: "float"
+        a: "Dynamic Method dispatch",
+        b: "Static binding",
+        c: "Early binding",
+        d: "Method Overloading"
       },
       correctAnswer: "a"
     },
