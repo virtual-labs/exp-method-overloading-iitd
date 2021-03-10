@@ -1,16 +1,16 @@
 ## Post Test
 
-Q1. Java method overloading implements the OOPS concept ___.<br>
-A Inheritance<br>
-**B Polymorphism**<br>
+Q1. To succesfully overload a method in java, the method names must be_____.<br>
+A Same or different <br>
+**B Different**<br>
 C Encapsulation<br>
 D None<br>
 
-Q2. Java method overloading implements the OOPS concept ___.<br>
-A Inheritance<br>
-**B Polymorphism**<br>
-C Encapsulation<br>
-D None<br>
+Q2. Which of the following statements is false regarding method overloading?<br>
+**A static**<br>
+B private<br>
+C final<br>
+D None of the above<br>
 
 Q3. Java method overloading implements the OOPS concept ___.<br>
 A Inheritance<br>
