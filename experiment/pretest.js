@@ -123,7 +123,7 @@
     },
 	
 	{
-      question: "Q5. To successfully overload a method in Java, the argument-list or parameter-list must be ___.",
+      question: "Q5. To successfully overload a method in Java, the argument-list or parameter-list must be _____.",
       answers: {
         a: "Same",
         b: "Different",
