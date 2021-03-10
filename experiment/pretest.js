@@ -80,7 +80,7 @@
 
   const myQuestions = [
     {
-      question: "Q1. Compile time polymorphism is also known as",
+      question: "Q1. Compile time polymorphism is also known as_____.",
       answers: {
         a: "Method Overriding",
         b: "Method Overloading",
@@ -112,7 +112,7 @@
     },
 	
 	{
-      question: "Q4.To successfully overload a method in Java, the return types must be ___.",
+      question: "Q4.To successfully overload a method in Java, the return types must be _____.",
       answers: {
         a: "Same",
         b: "Different",
