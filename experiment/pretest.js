@@ -103,7 +103,7 @@
     },
 
     {
-      question: "Q3. Can we overload the constructor of a class ?",
+      question: "Q3. Can we overload the constructor of a class?",
       answers: {
         a: "Yes",
         b: "No",
