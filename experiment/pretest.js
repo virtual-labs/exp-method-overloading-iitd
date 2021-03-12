@@ -80,7 +80,7 @@
 
   const myQuestions = [
     {
-      question: "Q1. Compile time polymorphism is also known as",
+      question: "Q1. Compile time polymorphism is also known as_____.",
       answers: {
         a: "Method Overriding",
         b: "Method Overloading",
@@ -103,7 +103,7 @@
     },
 
     {
-      question: "Q3. Can we overload the constructor of a class ?",
+      question: "Q3. Can we overload the constructor of a class?",
       answers: {
         a: "Yes",
         b: "No",
@@ -112,7 +112,7 @@
     },
 	
 	{
-      question: "Q4.To successfully overload a method in Java, the return types must be ___.",
+      question: "Q4.To successfully overload a method in Java, the return types must be _____.",
       answers: {
         a: "Same",
         b: "Different",
@@ -123,7 +123,7 @@
     },
 	
 	{
-      question: "Q5. To successfully overload a method in Java, the argument-list or parameter-list must be ___.",
+      question: "Q5. To successfully overload a method in Java, the argument-list or parameter-list must be _____.",
       answers: {
         a: "Same",
         b: "Different",
