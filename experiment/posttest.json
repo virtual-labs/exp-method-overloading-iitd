@@ -1,1 +1,46 @@
-[{"question":"Q1. To succesfully overload a method in java, the method names must be_____.","answers":{"a":"Same or different","b":"Different","c":"Same","d":"None"},"correctAnswer":"c"},{"question":"Q2. What is the process of defining two or more methods within same class that have same name but different parameters declaration?","answers":{"a":"method overriding","b":"method overloading","c":"method hiding","d":"None"},"correctAnswer":"b"},{"question":"Q3.  Java method overloading implements the OOPS concept ___.","answers":{"a":"Inheritance","b":"Polymorphism","c":"Encapsulation","d":"None"},"correctAnswer":"b"},{"question":"Q4. Which is the overloaded static method of Math class to get absolute value in Java?","answers":{"a":" Math.abs(int)","b":" Math.abs(float)","c":" Math.abs(double)","d":" All the above"},"correctAnswer":"d"},{"question":"Q5. Rum time polymorphism is also known as_____.","answers":{"a":"Dynamic Method dispatch","b":"Static binding","c":"Early binding","d":"Method Overloading"},"correctAnswer":"a"}]
+[{
+	"question": "Q1. To succesfully overload a method in java, the method names must be_____.",
+	"answers": {
+		"a": "Same or different",
+		"b": "Different",
+		"c": "Same",
+		"d": "None"
+	},
+	"correctAnswer": "c"
+}, {
+	"question": "Q2. What is the process of defining two or more methods within same class that have same name but different parameters declaration?",
+	"answers": {
+		"a": "method overriding",
+		"b": "method overloading",
+		"c": "method hiding",
+		"d": "None"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "Q3.  Java method overloading implements the OOPS concept ___.",
+	"answers": {
+		"a": "Inheritance",
+		"b": "Polymorphism",
+		"c": "Encapsulation",
+		"d": "None"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "Q4. Which is the overloaded static method of Math class to get absolute value in Java?",
+	"answers": {
+		"a": " Math.abs(int)",
+		"b": " Math.abs(float)",
+		"c": " Math.abs(double)",
+		"d": " All the above"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "Q5. Rum time polymorphism is also known as_____.",
+	"answers": {
+		"a": "Dynamic Method dispatch",
+		"b": "Static binding",
+		"c": "Early binding",
+		"d": "Method Overloading"
+	},
+	"correctAnswer": "a"
+}]
