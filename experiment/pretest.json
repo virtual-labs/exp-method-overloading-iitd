@@ -1,1 +1,44 @@
-[{"question":"Q1. Compile time polymorphism is also known as_____.","answers":{"a":"Method Overriding","b":"Method Overloading","c":"Method Rewriting","d":"None of these"},"correctAnswer":"b"},{"question":"Q2.  Which conditions should a method satisfy for overloading a method in a class.A) its return type should be same. B) number of parameters it takes should be different. C) type of parameters should be different.","answers":{"a":" Only A","b":"Both A and B","c":"Either B and C","d":"All of the above are true."},"correctAnswer":"c"},{"question":"Q3. Can we overload the constructor of a class?","answers":{"a":"Yes","b":"No"},"correctAnswer":"a"},{"question":"Q4.To successfully overload a method in Java, the return types must be _____.","answers":{"a":"Same","b":"Different","c":"Same but using superclass or subclass types also work","d":"None"},"correctAnswer":"c"},{"question":"Q5. To successfully overload a method in Java, the argument-list or parameter-list must be _____.","answers":{"a":"Same","b":"Different","c":"Same but using superclass or subclass types also work","d":"None"},"correctAnswer":"b"}]
+[{
+	"question": "Q1. Compile time polymorphism is also known as_____.",
+	"answers": {
+		"a": "Method Overriding",
+		"b": "Method Overloading",
+		"c": "Method Rewriting",
+		"d": "None of these"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "Q2.  Which conditions should a method satisfy for overloading a method in a class.A) its return type should be same. B) number of parameters it takes should be different. C) type of parameters should be different.",
+	"answers": {
+		"a": " Only A",
+		"b": "Both A and B",
+		"c": "Either B and C",
+		"d": "All of the above are true."
+	},
+	"correctAnswer": "c"
+}, {
+	"question": "Q3. Can we overload the constructor of a class?",
+	"answers": {
+		"a": "Yes",
+		"b": "No"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "Q4.To successfully overload a method in Java, the return types must be _____.",
+	"answers": {
+		"a": "Same",
+		"b": "Different",
+		"c": "Same but using superclass or subclass types also work",
+		"d": "None"
+	},
+	"correctAnswer": "c"
+}, {
+	"question": "Q5. To successfully overload a method in Java, the argument-list or parameter-list must be _____.",
+	"answers": {
+		"a": "Same",
+		"b": "Different",
+		"c": "Same but using superclass or subclass types also work",
+		"d": "None"
+	},
+	"correctAnswer": "b"
+}]
