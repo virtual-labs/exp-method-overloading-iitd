@@ -3,7 +3,8 @@
 - If a class has multiple methods having same name but different in parameters, it is known as Method Overloading.
 - If we have to perform only one operation, having same name of the methods increases the readability of the program.
 - Suppose you have to perform addition of the given numbers but there can be any number of arguments, if you write the method such as a(int,int) for two parameters, and b(int,int,int) for three parameters then it may be difficult for you as well as other programmers to understand the behavior of the method because its name differs.
-You can create same method name with different argument list example:
+
+#### You can create same method name with different argument list example:
 
 ```
 voidfunc() { ... }
@@ -12,15 +13,22 @@ floatfunc(double a) { ... }
 floatfunc(int a, float b) { ... }
 
 ```
+---
+
 ### Why method overloading?
 
 Suppose, you have to perform the addition of given numbers but there can be any number of arguments (let’s say either 2 or 3 arguments for simplicity).
 In order to accomplish the task, you can create two methods sum2num(int, int) and sum3num(int, int, int) for two and three parameters respectively. 
 The better way to accomplish this task is by overloading methods. And, depending upon the argument passed, one of the overloaded methods is called. This helps to increase the readability of the program.
 
+---
+
+
 ### Advantage of method overloading
 - Method overloading increases the readability of the program.
 - We don’t have to create and remember different names for functions doing the same thing.
+
+---
 
 ### How to perform method overloading in Java?
 -	Overloading by changing the number of arguments
@@ -95,17 +103,29 @@ System.out.println("Got String object.");
 Got Integer data.
 Got String object.
 ```
+---
 
 ### Can we overload java main() method?
 Yes, by method overloading. You can have any number of main methods in a class by method overloading. But JVM calls main() method which receives string array as arguments only. Let's see the simple example:
 
 ```
-class TestOverloading4{  
-public static void main(String[] args){System.out.println("main with String[]");}  
-public static void main(String args){System.out.println("main with String");}  
-public static void main(){System.out.println("main without args");}  
+class TestOverloading4
+{  
+public static void main(String[] args)
+{
+System.out.println("main with String[]");
+}  
+public static void main(String args)
+{
+System.out.println("main with String");
+}  
+public static void main()
+{
+System.out.println("main without args");
+}  
 }  
 ```
+
 #### OUTPUT
 
 ```
