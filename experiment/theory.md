@@ -60,8 +60,6 @@ public class Sum {
 		System.out.println(s.sum(10.5, 20.5));
 	}
 }
-
-
 ```
 
 #### OUTPUT
@@ -70,7 +68,6 @@ public class Sum {
 30
 60
 31.0
-
 ```
 
 #### 2.  By changing the datatype of parameters
@@ -97,7 +94,6 @@ System.out.println("Got String object.");
 ```
 Got Integer data.
 Got String object.
-
 ```
 
 ### Can we overload java main() method?
