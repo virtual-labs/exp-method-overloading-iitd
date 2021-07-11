@@ -64,6 +64,6 @@ public class Test
 }
 ```
 **A GFG** <br>
-B Compilation error **<br>
+B Compilation error<br>
 C Runtime error <br>
 D gfg<br>
