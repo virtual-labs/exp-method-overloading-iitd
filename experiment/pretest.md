@@ -6,10 +6,33 @@ A Method Overriding<br>
 C Method Rewriting<br>
 D None of these<br>
 
-Q2. Which conditions should a method satisfy for overloading a method in a class.<br>
-A. its return type should be same.<br>
-B. number of parameters it takes should be different.<br> 
-C. type of parameters should be different.<br>
+Q2. What is the output of the below Java program with multiple methods?<br>
+
+```
+public class MethodOverloading2
+{
+  int info()
+  {
+    System.out.println("PLANE");
+    return 0;
+  }
+
+  void info()
+  {
+    System.out.println("AIRPORT");
+  }
+
+  public static void main(String[] args)
+  {
+    MethodOverloading2 m = new MethodOverloading2();
+    int a = m.info();
+  }
+}
+```
+A. PLANE<br>
+B. AIRPORT<br> 
+**C. Compiler error**<br>
+D. None<br>
 
 A Only A<br>
 B Both A and B<br>
