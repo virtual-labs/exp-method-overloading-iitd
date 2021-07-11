@@ -34,10 +34,6 @@ B. AIRPORT<br>
 **C. Compiler error**<br>
 D. None<br>
 
-A Only A<br>
-B Both A and B<br>
-**C Either B and C**<br>
-D All of the above are true<br>
 
 Q3. Can we overload the constructor of a class?<br>
 **A Yes**<br>
