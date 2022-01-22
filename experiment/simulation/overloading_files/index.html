@@ -68,7 +68,7 @@ div.ex1 {
 <div class="ex1">
 <div class="row">
 <a href="#/" style="padding:15px;font-size:20px;"><button style="color:steelblue;"><u>Preview</u></button></a>
-<a href="http://ec2-65-1-58-72.ap-south-1.compute.amazonaws.com/javalab/index.php" target="blank" style="margin-left:-18px;font-size:20px;"><button style="color:steelblue;">&nbsp;&nbsp;&nbsp;&nbsp;Editor&nbsp;&nbsp;&nbsp;&nbsp;</button></a>
+<!-- <a href="http://ec2-65-1-58-72.ap-south-1.compute.amazonaws.com/javalab/index.php" target="blank" style="margin-left:-18px;font-size:20px;"><button style="color:steelblue;">&nbsp;&nbsp;&nbsp;&nbsp;Editor&nbsp;&nbsp;&nbsp;&nbsp;</button></a> -->
 </div>
 <div class="row">
 <div class="col-md-5">
@@ -103,11 +103,11 @@ function FunctionBack1(){
 }
 
 function createclass(){
-	document.getElementById("area").innerHTML = "<p style='font-size:16px'>//Creating Class<br>public class <input type='text' id='classname' style='width:120px;height:24px;'>&nbsp;&nbsp;{<br><br>}</p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click1' >Next</button></div>";
+	document.getElementById("area").innerHTML = "<p style='font-size:16px'>//Creating Class<br>public class <input type='text' id='classname' style='width:120px;height:24px;'>&nbsp;&nbsp;{<br>// public class in java is a blueprint of objects which specifies properties and methods of objects belonging to that particular class.<br>}</p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click1' >Next</button></div>";
 }
 
 function definingfields(classname){
-	document.getElementById("area").innerHTML = "<p style='font-size:16px'>//Defining fields<br>public class <span id='first'>"+classname+"</span>{<br>void <input type='text' id='methodname' style='width:80px;height:24px;'> (int a, int b){<br>}<br>}</p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click2'>Next</button></div>";
+	document.getElementById("area").innerHTML = "<p style='font-size:16px'>//Defining fields<br>public class <span id='first'>"+classname+"</span>{<br>void <input type='text' id='methodname' style='width:80px;height:24px;'> (int a, int b){<br>// If a class has multiple methods having same name but different in parameters, it is known as Method Overloading.<br>}<br>}</p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click2'>Next</button></div>";
 }
 
 function methodbody1(methodname,first){
@@ -115,7 +115,7 @@ function methodbody1(methodname,first){
 }
 
 function definingsubclass(methodname,first){
-  document.getElementById("area").innerHTML = "<p style='font-size:16px'>//Creating Super Class<br>public class <span id='first'>"+first+"</span> {<br>void <span id='methodname'>"+methodname+"</span> (int a, int b){<br>System.out.println(a+b) ;<br>}<br>void <input type='text' id='methodname1' style='width:80px;height:24px;'> (int a, int b, int c){<br>}<br>}</p><div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click4' >Next</button></div>";
+  document.getElementById("area").innerHTML = "<p style='font-size:16px'>//Creating Super Class<br>public class <span id='first'>"+first+"</span> {<br>void <span id='methodname'>"+methodname+"</span> (int a, int b){<br>System.out.println(a+b) ;<br>}<br>void <input type='text' id='methodname1' style='width:80px;height:24px;'> (int a, int b, int c){<br>// Method overloading By changing number of arguments<br>}<br>}</p><div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click4' >Next</button></div>";
 }
 
 function definingsubclassfields(methodname,first,methodname1){
@@ -123,11 +123,11 @@ function definingsubclassfields(methodname,first,methodname1){
 }
 
 function mainmethod(methodname,first,methodname1){
-  document.getElementById("area").innerHTML = "<p style='font-size:16px'>//Creating Super Class<br>public class <span id='first'>"+first+"</span> {<br>void <span id='methodname'>"+methodname+"</span> (int a, int b){<br>System.out.println(a+b) ;<br>}<br>void <span id='methodname1'>"+methodname1+"</span> (int a, int b, int c){<br>System.out.println(a+b+c) ;<br>}<br>public static void main(String[] args){<br><span id='first'>"+first+"</span> <input type='text' id='obj' style='width:120px;height:24px;'> = new <span id='subclass'>"+first+"</span>( ) ;<br>}<br>}</p><div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click6' >Next</button></div>";
+  document.getElementById("area").innerHTML = "<p style='font-size:16px'>//Creating Super Class<br>public class <span id='first'>"+first+"</span> {<br>void <span id='methodname'>"+methodname+"</span> (int a, int b){<br>System.out.println(a+b) ;<br>}<br>void <span id='methodname1'>"+methodname1+"</span> (int a, int b, int c){<br>System.out.println(a+b+c) ;<br>}<br>public static void main(String[] args){<br><span id='first'>"+first+"</span> <input type='text' id='obj' style='width:120px;height:24px;'> = new <span id='subclass'>"+first+"</span>( ) ;<br>// Creating Object.<br>}<br>}</p><div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click6' >Next</button></div>";
 }
 
 function methodcalling(methodname,first,methodname1,obj){
-  document.getElementById("area").innerHTML = "<p style='font-size:16px'>//Creating Super Class<br>public class <span id='first'>"+first+"</span> {<br>void <span id='methodname'>"+methodname+"</span> (int a, int b){<br>System.out.println(a+b) ;<br>}<br>void <span id='methodname1'>"+methodname1+"</span> (int a, int b, int c){<br>System.out.println(a+b+c) ;<br>}<br>public static void main(String[] args){<br><span id='first'>"+first+"</span> <span id='obj'>"+obj+"</span> = new <span id='subclass'>"+first+"</span>( ) ;<br><span id='obj'>"+obj+"</span>.<span id='methodname'>"+methodname+"</span>( <input type='text' id='val1' style='width:40px;height:20px;'> , <input type='text' id='val2' style='width:40px;height:20px;'> ) ;<br><br><span id='obj'>"+obj+"</span>.<span id='methodname1'>"+methodname1+"</span>( <input type='text' id='val3' style='width:40px;height:20px;'> , <input type='text' id='val4' style='width:40px;height:20px;'> , <input type='text' id='val5' style='width:40px;height:20px;'> ) ;<br>}<br>}</p><div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click7' >Next</button></div>";
+  document.getElementById("area").innerHTML = "<p style='font-size:16px'>//Creating Super Class<br>public class <span id='first'>"+first+"</span> {<br>void <span id='methodname'>"+methodname+"</span> (int a, int b){<br>System.out.println(a+b) ;<br>}<br>void <span id='methodname1'>"+methodname1+"</span> (int a, int b, int c){<br>System.out.println(a+b+c) ;<br>}<br>public static void main(String[] args){<br><span id='first'>"+first+"</span> <span id='obj'>"+obj+"</span> = new <span id='subclass'>"+first+"</span>( ) ;<br><span id='obj'>"+obj+"</span>.<span id='methodname'>"+methodname+"</span>( <input type='text' id='val1' style='width:40px;height:20px;'> , <input type='text' id='val2' style='width:40px;height:20px;'> ) ;<br><br><span id='obj'>"+obj+"</span>.<span id='methodname1'>"+methodname1+"</span>( <input type='text' id='val3' style='width:40px;height:20px;'> , <input type='text' id='val4' style='width:40px;height:20px;'> , <input type='text' id='val5' style='width:40px;height:20px;'> ) ;<br>// Passing parameters values<br>}<br>}</p><div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click7' >Next</button></div>";
 }
 function outputvalue(methodname,first,methodname1,obj,val1,val2,val3,val4,val5){
   document.getElementById("area").innerHTML = "<p style='font-size:16px'>//Creating Super Class<br>public class <span id='first'>"+first+"</span> {<br>void <span id='methodname'>"+methodname+"</span> (int a, int b){<br>System.out.println(a+b) ;<br>}<br>void <span id='methodname1'>"+methodname1+"</span> (int a, int b, int c){<br>System.out.println(a+b+c) ;<br>}<br>public static void main(String[] args){<br><span id='first'>"+first+"</span> <span id='obj'>"+obj+"</span> = new <span id='subclass'>"+first+"</span>( ) ;<br><span id='obj'>"+obj+"</span>.<span id='methodname'>"+methodname+"</span>( <span id='val1'>"+val1+"</span> , <span id='val2'>"+val2+"</span> ) ;<br><br><span id='obj'>"+obj+"</span>.<span id='methodname1'>"+methodname1+"</span>( <span id='val3'>"+val3+"</span> , <span id='val4'>"+val4+"</span> , <span id='val5'>"+val5+"</span> ) ;<br>}<br>}</p><div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click8' >Next</button></div>";
