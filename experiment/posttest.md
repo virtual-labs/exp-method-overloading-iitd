@@ -18,14 +18,52 @@ A Inheritance<br>
 C Encapsulation<br>
 D None<br>
 
-Q4. Which is the overloaded static method of Math class to get absolute value in Java?<br>
-A Math.abs(int)<br>
-B Math.abs(float)<br>
-C Math.abs(double)<br>
-**D All the above**<br>
+Q4.  What is the output of the following program?<br>
+
+```
+
+public class Test
+{
+    public int getData() //getdata() 1
+    {
+        return 0;
+    }
+    public long getData() //getdata 2
+    {
+        return 1;
+    }
+    public static void main(String[] args)
+    {
+        Test obj = new Test();
+        System.out.println(obj.getData());   
+    }
+}
+```
+A 1<br>
+B 0<br>
+C Runtime error <br>
+**D Compilation error**<br>
 
 Q5. Java method overloading implements the OOPS concept ___.<br>
-A Inheritance<br>
-**B Polymorphism**<br>
-C Encapsulation<br>
-D None<br>
+```
+public class Test
+{
+    private String function(float i, int f)
+    {
+        return ("gfg");
+    }
+    private String function(double i, double f)
+    {
+        return ("GFG");
+    }
+    public static void main(String[] args)
+    {
+        Test obj = new Test();
+        System.out.println(obj.function(1., 20));    
+    }
+}
+```
+**A GFG** <br>
+B Compilation error<br>
+C Runtime error <br>
+D gfg<br>
